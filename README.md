@@ -30,7 +30,7 @@ msbuild ServiceBusPowerShell.sln /p:Configuration=Release
 ```
 3. Install the resulting DLL as a module:
 ```
-Import-Module ServiceBusSasTokenModule/bin/Release/ServiceBusSasTokenModule.dll
+Import-Module .\ServiceBusSasTokenModule\bin\Release\ServiceBusSasTokenModule.dll
 ```
 
 ### Example
